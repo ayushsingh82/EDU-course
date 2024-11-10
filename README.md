@@ -1,6 +1,6 @@
-# EDU-Course
+# Course-Cast
 
-EDU-Course is a platform designed for running educational advertising campaigns targeted at specific regions such as Asia, the Pacific, and Europe. Organisations can initiate their campaigns by depositing Ethereum (ETH), after which the campaign goes live on our platform.
+Course-Cast is a platform designed for running educational advertising campaigns targeted at specific regions such as Asia, the Pacific, and Europe. Organisations can initiate their campaigns by depositing Ethereum (ETH), after which the campaign goes live on our platform.
 
 ---
 
