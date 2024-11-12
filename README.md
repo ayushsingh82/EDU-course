@@ -9,7 +9,7 @@ Network Deployment Details
 rootstock 
 https://explorer.testnet.rootstock.io/address/0x116950c2a61fb5c40d5b73d2caf235d222cc93d3
 
-citrea
+citrea https://explorer.testnet.citrea.xyz/address/0x116950C2a61fb5C40d5B73d2caF235d222CC93D3
 
 ---
 
