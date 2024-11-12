@@ -64,6 +64,25 @@ const CardWithImage = ({ campaign }) => {
   );
 };
 
+function DemoCard() {
+  return (
+    <Card className="py-4 bg-black border-2 border-gray-600 w-[600px]">
+      <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+        <h4 className="font-bold text-large text-white">Bitcoin Hacker house</h4>
+        <h4 className="font-medium text-sm text-white">Glowfish Bangkok (80k$ prizes)</h4>
+      </CardHeader>
+      <CardBody className="overflow-visible py-2">
+        <Image
+          alt="Card background"
+          className="object-cover rounded-xl"
+          src="https://nextui.org/images/hero-card-complete.jpeg"
+          width={270}
+        />
+      </CardBody>
+    </Card>
+  );
+}
+
 function Landing() {
   const { address, isConnected } = useAccount();
   const backendUrl = "https://api-testing.publicvm.com";
@@ -104,7 +123,8 @@ function Landing() {
           ))}
         </div>
       ) : (
-        <h1 className="text-lg m-10">No campaigns create one</h1>
+        <DemoCard/>
+        // <h1>No campaign create one</h1>
       )}
     </div>
   );

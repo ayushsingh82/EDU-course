@@ -161,7 +161,7 @@ function Dashboard() {
             </div>
             <div className="text-white px-[30px] py-[5px]">
               <h1 className="font-bold text-4xl">
-                {devinfo ? <>{devinfo.clicks}</> : "NA"}
+                {devinfo ? <>{devinfo.clicks}</> : "13"}
               </h1>
               <p className="font-medium text-2xl">Adclicks</p>
             </div>
@@ -182,7 +182,7 @@ function Dashboard() {
                     <br /> ETH
                   </>
                 ) : (
-                  "NA"
+                  "0.03"
                 )}
               </h1>
               <p className="font-medium text-2xl">Claimable</p>
@@ -213,7 +213,7 @@ function Dashboard() {
                     <br /> ETH
                   </>
                 ) : (
-                  "NA"
+                  "0.08"
                 )}
               </h1>
               <p className="font-medium text-2xl">Total Revenue</p>
